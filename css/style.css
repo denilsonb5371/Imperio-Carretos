@@ -128,7 +128,7 @@ section.sessao1 .container{
 	height: calc(100% + 30px);
 }
 
-.texto-sessao1{
+.texto-sessao1 {
 	float: left;
 	width: 50%;
 	position: relative;
@@ -137,6 +137,7 @@ section.sessao1 .container{
 	padding-left: 80px;
 	color: white;
 }
+
 
 .texto-sessao1 h2{
 	font-size: 26px;
@@ -158,6 +159,11 @@ section.sessao1 .container{
 	width: 100%;
 	margin-top:8px;
 }
+
+.texto-sessao1 ul li a{
+	text-decoration: none;
+	color: white;
+	}
 
 .btn1-texto{
 	background-color: #FF703D;
@@ -181,7 +187,7 @@ section.sessao1 .container{
 	height: 80%;
 	background-image: url('../imagens/device.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 75%;
 }
 
 .sessao2{
@@ -210,6 +216,22 @@ section.sessao1 .container{
 	width: 100%;
 	margin-top:40px;
 }
+
+footer{
+    background-color: rgb(255, 255, 255);
+	margin: 0px 7px 0px 7px;
+	  padding: 30px 30px;
+	  width: auto;
+	  margin: auto;
+	  text-align: center;
+	  font-family: var(--fonte-padrao);
+	  font-weight: bold;
+  }
+  footer:hover{
+  color: #472663;
+  
+  }
+
 
 
 @media screen and (max-width: 830px){
@@ -261,7 +283,7 @@ nav.mobile-menu{
 
 
 section.sessao1{
-	padding:40px 2%;
+	padding:20px 2%;
 	height: auto;
 	text-align: center;
 }
@@ -281,7 +303,7 @@ section.sessao1{
 
 .texto-sessao1 ul{
 	display: inline-block;
-	margin-top:20px;
+	margin-top:10px;
 }
 
 .texto-sessao1 ul li{
